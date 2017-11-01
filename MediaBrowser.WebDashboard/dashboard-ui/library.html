@@ -1,0 +1,17 @@
+﻿<div id="mediaLibraryPage" data-role="page" class="page type-interior mediaLibraryPage librarySectionPage withTabs fullWidthContent" data-helpurl="https://github.com/MediaBrowser/Wiki/wiki/Library%20setup" data-require="scripts/medialibrarypage">
+
+    <div>
+        <div class="content-primary">
+            <div>
+
+                <button is="emby-button" type="button" class="raised btnRefresh">
+                    <i class="md-icon">refresh</i>
+                    <span>${ButtonScanAllLibraries}</span>
+                </button>
+                <progress max="100" min="0" style="display: inline-block; vertical-align: middle;" class="refreshProgress"></progress>
+            </div>
+            <br />
+            <div id="divVirtualFolders"></div>
+        </div>
+    </div>
+</div>
